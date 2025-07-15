@@ -37,7 +37,7 @@ namespace CRSchatbotAPI.Controllers
             return Ok(new { message = "Department added", departmentId = department.DepartmentId });
         }
 
-        //Get Department by ID
+        //Get all Departments by College ID 
 
         [HttpGet("/colleges/{collegeId}/departments")]
         public async Task<IActionResult> GetAllDepartmentsByCollege(int collegeId)
@@ -54,10 +54,52 @@ namespace CRSchatbotAPI.Controllers
                 DepartmentId = d.DepartmentId,
                 Name = d.Name
             }).ToList();
-
             return Ok(departmentDtos);
         }
 
+        //	Get department details by department ID
 
+        [HttpGet("/departments/{departmentId}")]
+        public IActionResult GetDepartmentById(int departmentId)
+        {
+            var department = _context.Departments
+                .Include(d => d.College)
+                .FirstOrDefault(d => d.DepartmentId == departmentId);
+            if (department == null)
+                return NotFound("Department not found");
+            var departmentDto = new DepartmentDto
+            {
+                DepartmentId = department.DepartmentId,
+                Name = department.Name
+            };
+            return Ok(departmentDto);
+        }
+
+        // Update department details by department ID
+
+        [HttpPut("/departments/{departmentId}")]
+        public async Task<IActionResult> UpdateDepartment(int departmentId, [FromBody] CreateDepartmentDto dto)
+        {
+            var department = await _context.Departments.FindAsync(departmentId);
+            if (department == null)
+                return NotFound("Department not found");
+            department.Name = dto.Name;
+            _context.Departments.Update(department);
+            await _context.SaveChangesAsync();
+            return Ok(new { message = "Department updated" });
+        }
+
+        // Delete department by department ID
+        [HttpDelete("/departments/{departmentId}")]
+        public async Task<IActionResult> DeleteDepartment(int departmentId)
+        {
+            var department = await _context.Departments.FindAsync(departmentId);
+            if (department == null)
+                return NotFound("Department not found");
+            _context.Departments.Remove(department);
+            await _context.SaveChangesAsync();
+            return Ok(new { message = "Department deleted" });
+
+        }
     }
 }

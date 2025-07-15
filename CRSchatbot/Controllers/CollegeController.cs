@@ -20,38 +20,10 @@ namespace CRSchatbotAPI.Controllers
         [HttpPost("CreateCollege")]
         public IActionResult CreateCollege([FromBody] CollegeInputDto collegeDto)
         {
-            //    if (!ModelState.IsValid)
-            //        return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            //   // Map DTO to EF entity
-            //   var college = new College
-            //   {
-            //       Name = collegeDto.Name,
-            //       Location = collegeDto.Location,
-            //       Type = collegeDto.Type,
-            //       ContactNumber = collegeDto.ContactNumber,
-            //       Email = collegeDto.Email,
-            //       HostelAvailability = collegeDto.HostelAvailability,
-            //       Departments = collegeDto.Departments.Select(d => new Department
-            //       {
-            //           Name = d.Name,
-            //           CollegeId = 0, // Will be assigned after saving college if using EF Core
-            //           Courses = d.Courses.Select(c => new Course
-            //           {
-            //               Name = c.Name,
-            //               AverageCutoffRank = c.AverageCutoffRank,
-            //               Fee = c.Fee,
-            //               DepartmentId = 0, // will be assigned by EF Core
-            //               TotalSeats = c.TotalSeats,
-            //               FacultyToStudentRatio = c.FacultyToStudentRatio,
-            //               InternshipOpportunities = c.InternshipOpportunities,
-            //               ScholarshipOffered = c.ScholarshipOffered,
-            //               DurationInYears = c.DurationInYears,
-            //               AdmissionProcess = c.AdmissionProcess,
-            //               Rating = c.Rating
-            //           }).ToList()
-            //       }).ToList()
-            //   };
+            // Map DTO to EF entity
             var college = new College
             {
                 Name = collegeDto.Name,
@@ -60,14 +32,16 @@ namespace CRSchatbotAPI.Controllers
                 ContactNumber = collegeDto.ContactNumber,
                 Email = collegeDto.Email,
                 HostelAvailability = collegeDto.HostelAvailability,
-                Departments = collegeDto.Departments?.Select(d => new Department
+                Departments = collegeDto.Departments.Select(d => new Department
                 {
                     Name = d.Name,
-                    Courses = d.Courses?.Select(c => new Course
+                    CollegeId = 0, // Will be assigned after saving college if using EF Core
+                    Courses = d.Courses.Select(c => new Course
                     {
                         Name = c.Name,
                         AverageCutoffRank = c.AverageCutoffRank,
                         Fee = c.Fee,
+                        DepartmentId = 0, // will be assigned by EF Core
                         TotalSeats = c.TotalSeats,
                         FacultyToStudentRatio = c.FacultyToStudentRatio,
                         InternshipOpportunities = c.InternshipOpportunities,
@@ -75,9 +49,35 @@ namespace CRSchatbotAPI.Controllers
                         DurationInYears = c.DurationInYears,
                         AdmissionProcess = c.AdmissionProcess,
                         Rating = c.Rating
-                    }).ToList() ?? new List<Course>()
-                }).ToList() ?? new List<Department>()
+                    }).ToList()
+                }).ToList()
             };
+            //var college = new College
+            //{
+            //    Name = collegeDto.Name,
+            //    Location = collegeDto.Location,
+            //    Type = collegeDto.Type,
+            //    ContactNumber = collegeDto.ContactNumber,
+            //    Email = collegeDto.Email,
+            //    HostelAvailability = collegeDto.HostelAvailability,
+            //    Departments = collegeDto.Departments?.Select(d => new Department
+            //    {
+            //        Name = d.Name,
+            //        Courses = d.Courses?.Select(c => new Course
+            //        {
+            //            Name = c.Name,
+            //            AverageCutoffRank = c.AverageCutoffRank,
+            //            Fee = c.Fee,
+            //            TotalSeats = c.TotalSeats,
+            //            FacultyToStudentRatio = c.FacultyToStudentRatio,
+            //            InternshipOpportunities = c.InternshipOpportunities,
+            //            ScholarshipOffered = c.ScholarshipOffered,
+            //            DurationInYears = c.DurationInYears,
+            //            AdmissionProcess = c.AdmissionProcess,
+            //            Rating = c.Rating
+            //        }).ToList() ?? new List<Course>()
+            //    }).ToList() ?? new List<Department>()
+            //};
 
 
             // Check for duplicates, save to database, etc.
