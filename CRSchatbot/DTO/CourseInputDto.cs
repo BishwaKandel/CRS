@@ -7,8 +7,6 @@ namespace CRSchatbotAPI.DTO
         public string Name { get; set; }
 
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }  // Navigation property
-
         public double AverageCutoffRank { get; set; }
         public decimal Fee { get; set; }
         public int TotalSeats { get; set; }

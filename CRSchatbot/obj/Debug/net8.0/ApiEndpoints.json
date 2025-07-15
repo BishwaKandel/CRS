@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
-    "Method": "GetCollegeInfo",
-    "RelativePath": "api/College/getcollegeinfo",
+    "Method": "CreateCollege",
+    "RelativePath": "api/College/CreateCollege",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,85 @@
       {
         "Name": "collegeDto",
         "Type": "CRSchatbotAPI.DTO.CollegeInputDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
+    "Method": "DeleteCollege",
+    "RelativePath": "api/College/deletecolleges{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
+    "Method": "GetColleges",
+    "RelativePath": "api/College/getcolleges",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
+    "Method": "GetCollegebyID",
+    "RelativePath": "api/College/getcolleges{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
+    "Method": "UpdateCollegeInfo",
+    "RelativePath": "api/College/updatecolleges{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCollege",
+        "Type": "CRSchatbotAPI.DTO.CollegeUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.CourseController",
+    "Method": "CreateCourse",
+    "RelativePath": "api/Course/CreateCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDto",
+        "Type": "CRSchatbotAPI.DTO.CourseInputDto",
         "IsRequired": true
       }
     ],
@@ -66,5 +145,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "CRSchatbotAPI.Controllers.DepartmentController",
+    "Method": "AddDepartmentToCollege",
+    "RelativePath": "colleges/{collegeId}/departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collegeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CRSchatbotAPI.DTO.CreateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
