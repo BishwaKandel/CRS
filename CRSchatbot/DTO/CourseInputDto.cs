@@ -1,12 +1,13 @@
-﻿namespace CRSchatbotAPI.Models
+﻿using CRSchatbotAPI.Models;
+namespace CRSchatbotAPI.DTO
 {
-    public class Course
+    public class CourseInputDto
     {
         public int CourseId { get; set; }
         public string Name { get; set; }
 
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public Department Department { get; set; }  // Navigation property
 
         public double AverageCutoffRank { get; set; }
         public decimal Fee { get; set; }
@@ -18,4 +19,5 @@
         public required string AdmissionProcess { get; set; }
         public double Rating { get; set; }
     }
+
 }

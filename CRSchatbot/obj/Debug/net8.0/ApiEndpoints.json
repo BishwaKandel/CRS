@@ -1,22 +1,18 @@
 [
   {
-    "ContainingType": "CRSchatbotAPI.Controllers.UserController",
-    "Method": "AdminCheck",
-    "RelativePath": "api/User/Admin-endpoint",
-    "HttpMethod": "GET",
+    "ContainingType": "CRSchatbotAPI.Controllers.CollegeController",
+    "Method": "GetCollegeInfo",
+    "RelativePath": "api/College/getcollegeinfo",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CRSchatbotAPI.Controllers.UserController",
-    "Method": "AuthCheck",
-    "RelativePath": "api/User/Auth-endpoint",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "collegeDto",
+        "Type": "CRSchatbotAPI.DTO.CollegeInputDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

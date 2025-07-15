@@ -141,3 +141,4 @@ C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\r
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.pdb
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\ref\CRSchatbotAPI.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.sourcelink.json

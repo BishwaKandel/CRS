@@ -1,15 +1,15 @@
-﻿namespace CRSchatbotAPI.Models
+﻿namespace CRSchatbotAPI.DTO
 {
-    public class College
+    public class CollegeInputDto
     {
-        public int CollegeId { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
-        public string Type { get; set; } // e.g. Government, Private
+        public string Type { get; set; }
         public string ContactNumber { get; set; }
         public string Email { get; set; }
         public bool HostelAvailability { get; set; }
 
-        public ICollection<Department> Departments { get; set; }
+        public List<DepartmentInputDto>? Departments { get; set; } = new();
     }
+
 }
