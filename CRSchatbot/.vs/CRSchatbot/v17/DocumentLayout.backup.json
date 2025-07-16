@@ -3,8 +3,73 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRSchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\crschatbotweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990CABB1-769C-4119-BD80-74D5299D3FF3}|..\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot.shared\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990CABB1-769C-4119-BD80-74D5299D3FF3}|..\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot.shared\\crschatbot.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E822D815-4D74-4378-97A6-9B8172AE53CD}|..\\CRCchatbotWEB\\CRCchatbotWEB.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crcchatbotweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\models\\collegeinfocontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +100,6 @@
       "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\courseinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,14 +124,6 @@
       "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\collegeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|c:\\users\\asus\\desktop\\collegerecommendation system\\crschatbot\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D48A92-2C28-4127-892E-802C73C830C0}|CRSchatbotAPI.csproj|solutionrelative:dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,11 +139,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:56:40.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:08:27.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CRCchatbotWEB.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\CRSchatbotWEB.csproj",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\CRSchatbotWEB.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\CRSchatbotWEB.csproj",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\CRSchatbotWEB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T13:27:53.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Program.cs",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:58:41.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:53:55.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:41:25.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T13:51:28.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwCUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:46:33.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T16:51:54.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot.Shared\\DTO\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\CRSchatbot.Shared\\DTO\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot.Shared\\DTO\\LoginResponseDTO.cs",
+              "RelativeToolTip": "..\\CRSchatbot.Shared\\DTO\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:21:57.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T15:18:07.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CRSchatbot.Shared",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj",
+              "RelativeDocumentMoniker": "..\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj",
+              "RelativeToolTip": "..\\CRSchatbot.Shared\\CRSchatbot.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T16:02:22.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T13:17:10.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:02:10.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\appsettings.json",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T13:51:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T13:17:04.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\CRCchatbotWEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRCchatbotWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\CRCchatbotWEB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:42:46.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -103,20 +377,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CollegeInfoContentInputDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeInfoContentInputDto.cs",
-              "RelativeDocumentMoniker": "DTO\\CollegeInfoContentInputDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeInfoContentInputDto.cs",
-              "RelativeToolTip": "DTO\\CollegeInfoContentInputDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\UserDto.cs",
+              "RelativeToolTip": "DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T12:56:34.072Z",
+              "WhenOpened": "2025-07-15T07:05:41.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
@@ -129,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "CollegeController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CollegeController.cs",
               "RelativeDocumentMoniker": "Controllers\\CollegeController.cs",
@@ -142,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
@@ -155,46 +429,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CollegeInfoContent.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\CollegeInfoContent.cs",
-              "RelativeDocumentMoniker": "Models\\CollegeInfoContent.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\CollegeInfoContent.cs",
-              "RelativeToolTip": "Models\\CollegeInfoContent.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "CollegeInfoContentInputDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeInfoContentInputDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CollegeInfoContentInputDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeInfoContentInputDto.cs",
+              "RelativeToolTip": "DTO\\CollegeInfoContentInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:46:49.14Z",
+              "WhenOpened": "2025-07-15T12:56:34.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CinfoContentController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CinfoContentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CinfoContentController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CinfoContentController.cs",
-              "RelativeToolTip": "Controllers\\CinfoContentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:41:51.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CourseInputDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CourseInputDto.cs",
-              "RelativeDocumentMoniker": "DTO\\CourseInputDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CourseInputDto.cs",
-              "RelativeToolTip": "DTO\\CourseInputDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:23:51.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Models\\Department.cs",
@@ -207,7 +455,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
+              "Title": "CollegeInfoContent.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\CollegeInfoContent.cs",
+              "RelativeDocumentMoniker": "Models\\CollegeInfoContent.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\CollegeInfoContent.cs",
+              "RelativeToolTip": "Models\\CollegeInfoContent.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T16:46:49.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CinfoContentController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CinfoContentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CinfoContentController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\CinfoContentController.cs",
+              "RelativeToolTip": "Controllers\\CinfoContentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:41:51.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CourseInputDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CourseInputDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CourseInputDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CourseInputDto.cs",
+              "RelativeToolTip": "DTO\\CourseInputDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA+wAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T16:23:51.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "College.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\College.cs",
               "RelativeDocumentMoniker": "Models\\College.cs",
@@ -215,11 +502,12 @@
               "RelativeToolTip": "Models\\College.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T15:56:06.105Z"
+              "WhenOpened": "2025-07-14T15:56:06.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "CollegeInputDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeInputDto.cs",
               "RelativeDocumentMoniker": "DTO\\CollegeInputDto.cs",
@@ -227,11 +515,12 @@
               "RelativeToolTip": "DTO\\CollegeInputDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:24:22.061Z"
+              "WhenOpened": "2025-07-14T16:24:22.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "DepartmentInputDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\DepartmentInputDto.cs",
               "RelativeDocumentMoniker": "DTO\\DepartmentInputDto.cs",
@@ -239,11 +528,12 @@
               "RelativeToolTip": "DTO\\DepartmentInputDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:24:13.331Z"
+              "WhenOpened": "2025-07-14T16:24:13.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "DepartmentDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\DepartmentDto.cs",
               "RelativeDocumentMoniker": "DTO\\DepartmentDto.cs",
@@ -251,11 +541,12 @@
               "RelativeToolTip": "DTO\\DepartmentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:29:51.922Z"
+              "WhenOpened": "2025-07-15T08:29:51.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 32,
               "Title": "CollegeUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CollegeUpdateDto.cs",
               "RelativeDocumentMoniker": "DTO\\CollegeUpdateDto.cs",
@@ -263,11 +554,12 @@
               "RelativeToolTip": "DTO\\CollegeUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:11:24.777Z"
+              "WhenOpened": "2025-07-15T07:11:24.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "CreateDepartmentDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\CreateDepartmentDto.cs",
               "RelativeDocumentMoniker": "DTO\\CreateDepartmentDto.cs",
@@ -275,35 +567,12 @@
               "RelativeToolTip": "DTO\\CreateDepartmentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:21:44.867Z"
+              "WhenOpened": "2025-07-15T08:21:44.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:51:54.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\UserDto.cs",
-              "RelativeDocumentMoniker": "DTO\\UserDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\UserDto.cs",
-              "RelativeToolTip": "DTO\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:05:41.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\DTO\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "DTO\\UserProfileDto.cs",
@@ -311,11 +580,12 @@
               "RelativeToolTip": "DTO\\UserProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:05:40.201Z"
+              "WhenOpened": "2025-07-15T07:05:40.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CollegeRecommendation System\\CRSchatbot\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Models\\Course.cs",
@@ -323,7 +593,8 @@
               "RelativeToolTip": "Models\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:00:02.839Z"
+              "WhenOpened": "2025-07-14T16:00:02.839Z",
+              "EditorCaption": ""
             }
           ]
         }

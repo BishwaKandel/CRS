@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\bin\Debug\net8.0\CRSchatbot.Shared.deps.json
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\bin\Debug\net8.0\CRSchatbot.Shared.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\bin\Debug\net8.0\CRSchatbot.Shared.pdb
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.sourcelink.json
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\refint\CRSchatbot.Shared.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\CRSchatbot.Shared.pdb
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot.Shared\obj\Debug\net8.0\ref\CRSchatbot.Shared.dll

@@ -19,6 +19,7 @@ namespace CRSchatbotAPI.Services
         {
             this.configuration = configuration;
             this.context = context;
+            Console.WriteLine("AuthService constructed");
         }
         public async Task<User?> RegisterAsync(UserDto request)
         {
@@ -34,21 +35,26 @@ namespace CRSchatbotAPI.Services
             await context.SaveChangesAsync();
             return user;
         }
-        public async Task<string> LoginAsync(UserDto request)
+        public async Task<LoginResponseDto?> LoginAsync(UserDto request)
         {
             User? user = await context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
 
-            if (user is null)
+            if (user is null || user.PasswordHash == null ||
+                new PasswordHasher<User>().VerifyHashedPassword(user, user.PasswordHash, request.Password)
+                != PasswordVerificationResult.Success)
             {
                 return null;
             }
-            if (user.PasswordHash == null ||
-                new PasswordHasher<User>().VerifyHashedPassword(user, user.PasswordHash, request.Password) != PasswordVerificationResult.Success)
-            {
-                return null;
-            }
+
             string token = CreateToken(user);
-            return token;
+
+            return new LoginResponseDto
+            {
+                Token = token,
+                Role = user.Role,
+                Email = user.Email,
+                UserId = user.Id
+            };
         }
 
         private string CreateToken(User user)

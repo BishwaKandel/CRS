@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRSchatbotAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b14073431d28f04e03dc6acfac12b6f370864bc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff3b4332c24d44bf8a02fa2873c06e27c052332")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRSchatbotAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRSchatbotAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

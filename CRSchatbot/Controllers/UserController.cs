@@ -1,4 +1,5 @@
-﻿using CRSchatbotAPI.DTO;
+﻿using CRSchatbot.Shared.DTO;
+using CRSchatbotAPI.DTO;
 using CRSchatbotAPI.Models;
 using CRSchatbotAPI.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -16,11 +17,11 @@ namespace CRSchatbotAPI.Controllers
 
     public class UserController : Controller
     {
+        private readonly IAuthService service;
         public UserController(IAuthService service)
         {
             this.service = service;
         }
-        private readonly IAuthService service;
 
         [HttpPost("register")]
         public async Task<ActionResult<User?>> Register(UserDto request)
@@ -41,19 +42,15 @@ namespace CRSchatbotAPI.Controllers
         }
 
 
+        // In UserController.cs
         [HttpPost("login")]
-        public async Task<ActionResult<string>> LoginAsync(UserDto request)
+        public async Task<ActionResult<LoginResponseDto>> Login(UserDto request)
         {
-            var token = await service.LoginAsync(request);
-
-
-            if (token is null)
-            {
-                return BadRequest("Invalid email or password.");
-            }
-            return Ok(token);
+            var loginResponse = await service.LoginAsync(request);
+            return loginResponse is null
+                ? BadRequest("Invalid credentials.")
+                : Ok(loginResponse);
         }
-
 
 
     }

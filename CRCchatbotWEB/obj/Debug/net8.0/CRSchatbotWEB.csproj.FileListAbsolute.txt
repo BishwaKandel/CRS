@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRCchatbotWEB\obj\Debug\net8.0\CRSchatbotWEB.sourcelink.json
