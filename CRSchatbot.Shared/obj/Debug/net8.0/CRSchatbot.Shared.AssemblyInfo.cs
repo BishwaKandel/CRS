@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRSchatbot.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff3b4332c24d44bf8a02fa2873c06e27c052332")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cb8a2c8bac5c29b2f81e2eb691fc1de309b7bf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRSchatbot.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRSchatbot.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

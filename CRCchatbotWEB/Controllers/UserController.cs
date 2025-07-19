@@ -1,17 +1,22 @@
 ﻿using CRSchatbot.Shared.DTO;
-using CRSchatbotAPI.DTO;
+using CRSchatbotWEB.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Net.Http;
+using System.Text;
 
 namespace CRSchatbotWEB.Controllers
 {
     public class UserController : Controller
     {
 
-        private readonly HttpClient client;
-        public UserController(IHttpClientFactory httpClientFactory)
+        private readonly HttpClient _httpClient;
+        private readonly string _apiUrl;
+
+        public UserController(HttpClient httpClient, IConfiguration configuration)
         {
-            client = httpClientFactory.CreateClient("UserApi");
+            _httpClient = httpClient;
+            _apiUrl = configuration["ApiSettings:BaseUrl"]; 
         }
 
         [HttpGet]
@@ -20,38 +25,69 @@ namespace CRSchatbotWEB.Controllers
             return View();
         }
 
-
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var response = await client.PostAsJsonAsync("login", new UserDto
-            {
-                Email = model.Email,
-                Password = model.Password
-            });
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var json = JsonConvert.SerializeObject(model);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync($"{_apiUrl}/login", content);
 
             if (response.IsSuccessStatusCode)
             {
-                var result = await response.Content.ReadFromJsonAsync<LoginResponseDto>();
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var loginResult = JsonConvert.DeserializeObject<LoginResponseDto>(responseContent);
 
-                // Store token and role in session
-                HttpContext.Session.SetString("JWToken", result.Token);
-                HttpContext.Session.SetString("UserRole", result.Role);
-                HttpContext.Session.SetString("UserEmail", result.Email);
-                HttpContext.Session.SetInt32("UserId", result.UserId);
+                HttpContext.Session.SetString("JWToken", loginResult.Token);
+                HttpContext.Session.SetString("UserEmail", loginResult.Email);
+                HttpContext.Session.SetString("UserRole", loginResult.Role);
 
                 return RedirectToAction("Index", "Home");
             }
-
-            ModelState.AddModelError("", "Invalid login");
-            return View(model);
+            else
+            {
+                ViewBag.LoginError = "Invalid email or password.";
+                return View(model);
+            }
         }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var json = JsonConvert.SerializeObject(model);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync($"{_apiUrl}/register", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Login", "User");
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                ModelState.AddModelError(string.Empty, error);
+                return View(model);
+            }
+        }
+
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear(); // Clear everything
-            return RedirectToAction("Login", "User"); // Go back to login page
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login", "User");
         }
-
-
     }
 }
+

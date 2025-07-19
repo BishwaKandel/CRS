@@ -122,6 +122,8 @@ C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\r
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\CRSchatbot.Shared.dll
+C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\bin\Debug\net8.0\CRSchatbot.Shared.pdb
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ASUS\Desktop\CollegeRecommendation System\CRSchatbot\obj\Debug\net8.0\CRSchatbotAPI.AssemblyInfoInputs.cache

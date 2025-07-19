@@ -149,7 +149,7 @@
   },
   {
     "ContainingType": "CRSchatbotAPI.Controllers.UserController",
-    "Method": "LoginAsync",
+    "Method": "Login",
     "RelativePath": "api/User/login",
     "HttpMethod": "POST",
     "IsController": true,
@@ -163,7 +163,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "CRSchatbot.Shared.DTO.LoginResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

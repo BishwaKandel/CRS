@@ -1,0 +1,22 @@
+﻿
+.custom-navbar {
+    background-color: #0D1936 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Segoe UI', sans-serif; /* You can change this */
+    font-size: 1.1rem; /* Adjust size here */
+    font-weight: 400; /* Medium bold */
+}
+
+    .custom-navbar .nav-link {
+        color: white !important;
+    }
+
+        .custom-navbar .nav-link:hover {
+            color: #E9C46A !important;
+        }
+
+    .custom-navbar .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }

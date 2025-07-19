@@ -1,0 +1,123 @@
+﻿@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-register">SignUp</div>
+            </div>
+        </div>
+        <div class="form-container">
+
+            <form asp-controller="User" asp-action="Register" method="post" class="register-form" autocomplete="off">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="input-box">
+                    <input asp-for="FullName" class="input-field" id="reg-name" required />
+                    <label for="reg-name" class="label">Username</label>
+                    <i class='bx bx-user icon'></i>
+                </div>
+                <div class="input-box">
+                    <input asp-for="Email" class="input-field" id="reg-email" required />
+                    <label for="reg-email" class="label">Email</label>
+                    <i class='bx bx-envelope icon'></i>
+                </div>
+                <div class="input-box">
+                    <input asp-for="Password" class="input-field" id="reg-pass" type="password" required />
+                    <label for="reg-pass" class="label">Password</label>
+                    <i class='bx bx-hide eye-icon' id="toggle-password"></i>
+                </div>
+
+                <div class="input-box">
+                    <input asp-for="ConfirmPassword" class="input-field" id="reg-confirm-pass" type="password" required />
+                    <label for="reg-confirm-pass" class="label">Confirm Password</label>
+                    <i class='bx bx-hide eye-icon' id="toggle-confirm-password"></i>
+                </div>
+
+
+                <div class="input-box">
+                    <button class="btn-submit" id="SignUpBtn">Sign Up <i class='bx bx-user-plus'></i></button>
+                </div>
+                <p>Already have an account? <a asp-controller="user" asp-action="Login">Login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    // Handle floating labels on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('.input-field');
+
+        inputs.forEach(input => {
+            // Check if input has value on page load
+            if (input.value) {
+                input.classList.add('has-value');
+            }
+
+            // Handle input events
+            input.addEventListener('input', function() {
+                if (this.value) {
+                    this.classList.add('has-value');
+                } else {
+                    this.classList.remove('has-value');
+                }
+            });
+
+            // Handle focus events
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+
+            // Handle blur events
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('focused');
+            });
+        });
+
+        // Toggle Password Visibility (for Password and Confirm Password)
+        const togglePassword = document.getElementById("toggle-password");
+        const passwordField = document.getElementById("reg-pass");
+        if (togglePassword) {
+            togglePassword.addEventListener("click", function() {
+                const type = passwordField.type === "password" ? "text" : "password";
+                passwordField.type = type;
+                togglePassword.classList.toggle("bx-hide");
+                togglePassword.classList.toggle("bx-show");
+            });
+        }
+
+        // Toggle Confirm Password Visibility
+        const toggleConfirmPassword = document.getElementById("toggle-confirm-password");
+        const confirmPasswordField = document.getElementById("reg-confirm-pass");
+        if (toggleConfirmPassword) {
+            toggleConfirmPassword.addEventListener("click", function() {
+                const type = confirmPasswordField.type === "password" ? "text" : "password";
+                confirmPasswordField.type = type;
+                toggleConfirmPassword.classList.toggle("bx-hide");
+                toggleConfirmPassword.classList.toggle("bx-show");
+            });
+        }
+    });
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

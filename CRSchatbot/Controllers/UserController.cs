@@ -41,17 +41,23 @@ namespace CRSchatbotAPI.Controllers
 
         }
 
-
-        // In UserController.cs
         [HttpPost("login")]
         public async Task<ActionResult<LoginResponseDto>> Login(UserDto request)
         {
-            var loginResponse = await service.LoginAsync(request);
-            return loginResponse is null
-                ? BadRequest("Invalid credentials.")
-                : Ok(loginResponse);
+            var response = await service.LoginAsync(request);
+
+            if (response is null)
+            {
+                return BadRequest("Invalid email or password.");
+            }
+
+            return Ok(response);
         }
 
-
     }
+
+
+
+
+
 }

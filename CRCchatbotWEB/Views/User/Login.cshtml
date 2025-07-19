@@ -2,28 +2,105 @@
 
 @{
     ViewData["Title"] = "Login";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!-- CSS -->
+	<link href="~/css/Login.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-login">Login</div>
+            </div>
+        </div>
+        <!-- LOGIN FORM -->
+        <form asp-controller="User" asp-action="Login" method="post" class="login-form" autocomplete="off">
+            <div class="input-box">
+                <input asp-for="Email" class="input-field" id="log-email" required />
+                <label for="log-email" class="label">Email</label>
+                <i class='bx bx-envelope icon'></i>
+            </div>
+            <div class="input-box">
+                <input asp-for="Password" class="input-field" id="reg-pass" type="password" required />
+                <label for="reg-pass" class="label">Password</label>
+                <i class='bx bx-hide eye-icon' id="toggle-password"></i>
+            </div>
+            @* Display error above title *@
+            @if (!string.IsNullOrEmpty(ViewBag.LoginError as string))
+            {
+                <div style="color: red; margin-bottom: 10px; text-align: center;">
+                    @ViewBag.LoginError
+                </div>
+            }
+            <div class="input-box">
+                <button class="btn-submit" id="SignInBtn">Login In <i class='bx bx-log-in'></i></button>
+            </div>
+            <div class="switch-form">
+                <span>Don't have an account? <a asp-controller="User" asp-action="Register"> Register Here</a></span>
+            </div>
+        </form>
 
-<h2>Login</h2>
 
-<form asp-action="Login" method="post">
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" type="password" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
+</body>
+</html>
 
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
+
+<script>
+    // Handle floating labels on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('.input-field');
+
+        inputs.forEach(input => {
+            // Check if input has value on page load
+            if (input.value) {
+                input.classList.add('has-value');
+            }
+
+            // Handle input events
+            input.addEventListener('input', function() {
+                if (this.value) {
+                    this.classList.add('has-value');
+                } else {
+                    this.classList.remove('has-value');
+                }
+            });
+
+            // Handle focus events
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+
+            // Handle blur events
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('focused');
+            });
+        });
+
+        // Toggle Password Visibility (for Password and Confirm Password)
+        const togglePassword = document.getElementById("toggle-password");
+        const passwordField = document.getElementById("reg-pass");
+        if (togglePassword) {
+            togglePassword.addEventListener("click", function() {
+                const type = passwordField.type === "password" ? "text" : "password";
+                passwordField.type = type;
+                togglePassword.classList.toggle("bx-hide");
+                togglePassword.classList.toggle("bx-show");
+            });
+        }
+    });
+</script>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    <partial name="_ValidationScriptsPartial" />
 }

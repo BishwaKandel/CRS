@@ -1,4 +1,5 @@
-﻿using CRSchatbotAPI.Data;
+﻿using CRSchatbot.Shared.DTO;
+using CRSchatbotAPI.Data;
 using CRSchatbotAPI.DTO;
 using CRSchatbotAPI.Models;
 using Microsoft.AspNetCore.Identity;
@@ -31,6 +32,7 @@ namespace CRSchatbotAPI.Services
             user.Email = request.Email;
             user.PasswordHash = new PasswordHasher<User>()
                 .HashPassword(user, request.Password);
+            user.FullName = request.FullName;
             await context.Users.AddAsync(user);
             await context.SaveChangesAsync();
             return user;
