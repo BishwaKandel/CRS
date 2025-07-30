@@ -1,6 +1,7 @@
 ﻿using CRSchatbot.Shared.DTO;
 using CRSchatbotAPI.DTO;
-using CRSchatbotAPI.Models;
+using CRSchatbot.Shared.Models;
+
 
 namespace CRSchatbotAPI.Services
 {

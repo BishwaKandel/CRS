@@ -1,12 +1,12 @@
 ﻿
-.custom-navbar {
+/*.custom-navbar {
     background-color: #0D1936 !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: 'Segoe UI', sans-serif; /* You can change this */
-    font-size: 1.1rem; /* Adjust size here */
-    font-weight: 400; /* Medium bold */
-}
+    font-family: 'Segoe UI', sans-serif;*/ /* You can change this */
+    /*font-size: 1.1rem;*/ /* Adjust size here */
+    /*font-weight: 400;*/ /* Medium bold */
+/*}
 
     .custom-navbar .nav-link {
         color: white !important;
@@ -19,4 +19,54 @@
     .custom-navbar .navbar-brand {
         font-size: 1.5rem;
         font-weight: 600;
-    }
+    }*/
+
+/* Styling the custom select dropdown */
+/*#myDropdown {
+    background-color: #0D1936;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border: 2px solid #E9C46A;
+    border-radius: 5px;
+    appearance: none;
+    cursor: pointer;
+    width: auto;
+    transition: all 0.3s ease;
+}*/
+
+    /* Styling the dropdown when hovered */
+    /*#myDropdown:hover {
+        border-color: white;
+    }*/
+
+    /* Adding a custom arrow to the dropdown */
+    /*#myDropdown::after {
+        content: '▼';
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #E9C46A;
+        font-size: 1rem;
+    }*/
+
+    /* Remove the default dropdown icon for browsers */
+    /*#myDropdown::-ms-expand {
+        display: none;
+    }*/
+
+    /* Option styling */
+    /*#myDropdown option {
+        background-color: #0D1936;
+        color: white;
+        padding: 0.5rem;
+    }*/
+
+        /* Hover effect for options */
+        /*#myDropdown option:hover {
+            background-color: #E9C46A;
+            color: #0D1936;
+        }*/

@@ -1,6 +1,6 @@
 ﻿using CRSchatbotAPI.Data;
 using CRSchatbotAPI.DTO;
-using CRSchatbotAPI.Models;
+using CRSchatbot.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,0 +1,63 @@
+﻿@using CRSchatbot.Shared.Models
+@model IEnumerable<College>
+
+@{
+    ViewData["Title"] = "Colleges";
+}
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .table-hover tbody tr:hover {
+            background-color: #f1f5ff;
+            cursor: pointer;
+        }
+        .college-row td {
+            vertical-align: middle;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const rows = document.querySelectorAll(".college-row");
+            rows.forEach(row => {
+                row.addEventListener("click", () => {
+                    const collegeName = row.getAttribute("data-name");
+                    alert(`More details coming soon for: ${collegeName}`);
+                    // Optionally redirect to a detailed view: window.location.href = `/College/Details/${collegeId}`;
+                });
+            });
+        });
+    </script>
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-primary text-center">Colleges</h2>
+
+    <table class="table table-bordered table-hover shadow-sm bg-white rounded">
+        <thead class="table-dark">
+            <tr>
+                <th>College Name</th>
+                <th>Location</th>
+                <th>Type</th>
+                <th>Contact Number</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var college in Model)
+            {
+                <tr class="college-row" data-name="@college.Name">
+                    <td>@college.Name</td>
+                    <td>@college.Location</td>
+                    <td>@college.Type</td>
+                    <td>@college.ContactNumber</td>
+                    <td>@college.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,4 +1,4 @@
-﻿using CRSchatbotAPI.Models;
+﻿using CRSchatbot.Shared.Models;
 namespace CRSchatbotAPI.DTO
 {
     public class CourseInputDto

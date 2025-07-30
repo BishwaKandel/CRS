@@ -1,5 +1,5 @@
-﻿using CRSchatbotAPI.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using CRSchatbot.Shared.Models;
 
 namespace CRSchatbotAPI.Data
 {

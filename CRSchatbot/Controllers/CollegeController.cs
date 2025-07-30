@@ -1,6 +1,6 @@
 ﻿using CRSchatbotAPI.Data;
 using CRSchatbotAPI.DTO;
-using CRSchatbotAPI.Models;
+using CRSchatbot.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CRSchatbotAPI.Controllers
@@ -87,6 +87,7 @@ namespace CRSchatbotAPI.Controllers
             return Ok(new { Message = "College info added", college });
         }
 
+        // get all colleges
         [HttpGet("getcolleges")]
         public IActionResult GetColleges()
         {

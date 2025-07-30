@@ -1,6 +1,6 @@
 ﻿using CRSchatbot.Shared.DTO;
 using CRSchatbotAPI.DTO;
-using CRSchatbotAPI.Models;
+using CRSchatbot.Shared.Models;
 using CRSchatbotAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -34,11 +34,10 @@ namespace CRSchatbotAPI.Controllers
             }
             return Ok(new UserProfileDto
             {
-                Email = user.Email,
+                Email = user!.Email,
                 FullName = user.FullName,
                 Role = user.Role
             });
-
         }
 
         [HttpPost("login")]

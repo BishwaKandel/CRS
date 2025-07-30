@@ -189,7 +189,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CRSchatbotAPI.Models.User",
+        "Type": "CRSchatbot.Shared.Models.User",
         "MediaTypes": [
           "text/plain",
           "application/json",

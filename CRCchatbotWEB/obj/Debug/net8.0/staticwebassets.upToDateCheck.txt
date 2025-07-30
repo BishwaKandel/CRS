@@ -1,7 +1,15 @@
 wwwroot\css\Login.css
+wwwroot\css\main.css
 wwwroot\css\navbar.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\AdvanceLogo.jpg
+wwwroot\images\CampusConnectLogo.png
+wwwroot\images\kaeclogo.jpg
+wwwroot\images\keclogofinal.jpeg
+wwwroot\images\keclogoo.jpg
+wwwroot\images\sagarmathalogo.jpg
+wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

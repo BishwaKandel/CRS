@@ -4,17 +4,135 @@
     <meta charset="utf-8" />
     <title>@ViewData["Title"] - College Info System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/css/navbar.css" rel="stylesheet" />
+    @* <link href="~/css/navbar.css" rel="stylesheet" /> *@
+    @* @RenderSection("Styles", required: false) *@
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - College Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+	<link href="~/css/main.css" rel="stylesheet" />
 </head>
 
 <body>
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
 
-    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+				<!-- Uncomment the line below if you also wish to use an image logo -->
+                <img src="~/images/campusconnectlogo.png" />
+                @* <h1 class="sitename">College</h1> *@
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    @*  <li class="dropdown">
+                        <a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li><a href="faculty-staff.html">Faculty &amp; Staff</a></li>
+                            <li><a href="campus-facilities.html">Campus &amp; Facilities</a></li>
+                        </ul>
+                    </li> *@
+
+                    <li><a class="nav-link" asp-controller="College" asp-action="Details">Colleges</a></li>
+                    @* <li><a href="news.html">News</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="news-details.html">News Details</a></li>
+                            <li><a href="event-details.html">Event Details</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="404.html">Error 404</a></li>
+                            <li><a href="starter-page.html">Starter Page</a></li>
+                        </ul>
+                    </li> *@
+                    <li><a class="nav-link" asp-controller="College" asp-action="Details">Chatbot</a></li>
+                    <li><a class="nav-link" asp-controller="College" asp-action="Details">Analytics</a></li>
+                    @* <li>
+                        <a class="nav-link" asp-controller="College" asp-action="Details">
+                            Logout
+                        </a>
+                    </li> *@
+                    <li class="dropdown">
+                        <a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Compare Colleges</a></li>
+                            @* <li class="dropdown">
+                                <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li> *@
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                    @* <li class="dropdown">
+                        <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li> *@
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+  @*   <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="/">
 
-                @* <img src="~/images/LOGOcampusConnect.png" alt="Logo" width="50" height="40" class="me-2" /> *@
+                <img src="~/images/LOGOcampusConnect.png" alt="Logo" width="50" height="40" class="me-2" />
                 Campus Connect
             </a>
 
@@ -22,11 +140,24 @@
                 <ul class="navbar-nav me-auto">
 
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="User" asp-action="Index">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Colleges</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Details">Courses/Prograns</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Scholarships</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Admission</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Statistics</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="College" asp-action="Index">Advice</a></li>
+
+                    <select id="myDropdown">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                    </select>
+
+
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> *@
 
     <div class="container mt-4">
         @RenderBody()

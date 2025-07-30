@@ -1,13 +1,13 @@
 ﻿using CRSchatbot.Shared.DTO;
 using CRSchatbotAPI.Data;
 using CRSchatbotAPI.DTO;
-using CRSchatbotAPI.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using CRSchatbot.Shared.Models;
 
 namespace CRSchatbotAPI.Services
 {
@@ -20,7 +20,6 @@ namespace CRSchatbotAPI.Services
         {
             this.configuration = configuration;
             this.context = context;
-            Console.WriteLine("AuthService constructed");
         }
         public async Task<User?> RegisterAsync(UserDto request)
         {
