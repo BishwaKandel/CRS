@@ -1,0 +1,49 @@
+text,intent,label_encoded
+Faculty information at Sagarmatha Engineering College,Faculty_info,15
+SEC internship placements,Internship_opportunities,17
+SEC tuition costs,Course_fee,7
+Minimum rank for SEC,Course_cutoff,5
+Can I stay in SEC hostel?,Hostel_availability,16
+How long is the Computer Engineering course at SEC?,Course_duration,6
+Academic units at SEC,Department_info,13
+Financial support at SEC,Scholarship_info,19
+About SEC Nepal,College_basic_info,1
+What departments are there at SEC?,Department_info,13
+Course reputation at Sagarmatha,Course_rating,9
+Course evaluation SEC,Compare_courses,4
+Academic staff at SEC,Faculty_info,15
+Rating of Civil Engineering at SEC,Course_rating,9
+SEC course catalog,Course_list,8
+Tell me about this college,College_basic_info,1
+Which university is SEC affiliated to?,College_basic_info,1
+Prerequisites for SEC,Eligibility_criteria,14
+SEC hostel for students,Hostel_availability,16
+Maximum students at SEC,Course_seats,10
+SEC academic staff details,Faculty_info,15
+Career prospects from Sagarmatha Engineering College,Placement_info,18
+SEC program ratings,Course_rating,9
+SEC academic divisions,Department_info,13
+SEC course evaluation,Course_rating,9
+SEC qualification criteria,Eligibility_criteria,14
+Course content of Computer Engineering,Course_specific_info,11
+Does Sagarmatha Engineering College have hostel?,Hostel_availability,16
+Academic reputation of SEC,Course_rating,9
+Compare Computer and Civil Engineering at SEC,Compare_courses,4
+SEC phone number,College_contact,2
+SEC qualifying marks,Course_cutoff,5
+How to get admission to SEC?,Admission_process,0
+How good is SEC academically?,Course_rating,9
+Department list at SEC,Department_info,13
+What is the rating of Civil Engineering at SEC?,Course_specific_info,11
+SEC degree programs,Course_list,8
+SEC college coordinates,College_location,3
+Financial assistance SEC,Scholarship_info,19
+Course comparison at SEC,Compare_courses,4
+Civil Engineering department head at Sagarmatha,Department_head,12
+Seats per program at SEC,Course_seats,10
+SEC Nepal location,College_location,3
+How many years is engineering at SEC?,Course_duration,6
+Admission steps at SEC,Admission_process,0
+Job placement rate SEC,Placement_info,18
+Required qualifications SEC,Eligibility_criteria,14
+Electrical Engineering at Sagarmatha Engineering College,Course_specific_info,11
