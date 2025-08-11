@@ -1,0 +1,344 @@
+text,intent,label_encoded
+Show me SEC's location,College_location,4
+SEC admission requirements,Admission_process,0
+Location of Sagarmatha Engineering College,College_location,4
+Department management SEC,Department_head,13
+What course fits my interests?,Recommend,22
+SEC financial aid programs,Scholarship_info,23
+Course completion time SEC,Course_duration,7
+Prerequisites for SEC,Eligibility_criteria,15
+Compare engineering branches SEC,Compare_courses,5
+Study period at SEC,Course_duration,7
+Faculty divisions at SEC,Department_info,14
+Compare all engineering courses at SEC,Compare_courses,5
+Employment rate SEC graduates,Placement_info,21
+SEC placement cell,Placement_info,21
+SEC practical learning,Internship_opportunities,19
+Hello SEC chatbot,Greeting,17
+SEC program duration,Course_duration,7
+Available programs at Sagarmatha Engineering College,Course_list,9
+Which city is Sagarmatha Engineering College in?,College_location,4
+List of departments at Sagarmatha Engineering College,Department_info,14
+SEC program comparison,Compare_courses,5
+Available slots at SEC,Course_seats,11
+Official contact of Sagarmatha Engineering College,College_contact,3
+Cutoff for Civil Engineering at Sagarmatha Engineering College,Course_cutoff,6
+Departments available at SEC,Department_info,14
+SEC department structure,Department_info,14
+Placement assistance at SEC,Placement_info,21
+Computer Engineering at Sagarmatha,Course_specific_info,12
+Teaching staff at SEC,Faculty_info,16
+SEC practical training,Internship_opportunities,19
+Cost of Civil Engineering at Sagarmatha Engineering College,Course_fee,8
+Minimum percentage for SEC,Course_cutoff,6
+Mechanical Engineering program SEC,Course_specific_info,12
+Department list at SEC,Department_info,14
+Welcome,Greeting,17
+Which departments does SEC have?,Department_info,14
+How to call SEC?,College_contact,3
+SEC location closest to me,Nearest,20
+Admission interview at SEC,Admission_process,0
+About SEC Nepal,College_basic_info,2
+Financial support at SEC,Scholarship_info,23
+Qualification needed for SEC,Eligibility_criteria,15
+Engineering programs at Sagarmatha Engineering College,Course_list,9
+Faculty strength at SEC,Faculty_info,16
+Describe Sagarmatha Engineering College,College_basic_info,2
+SEC intake numbers,Course_seats,11
+SEC placement statistics,Placement_info,21
+Good day,Greeting,17
+SEC academic programs,Course_list,9
+Annual fee structure SEC,Course_fee,8
+Is SEC a private or government college?,College_basic_info,2
+SEC department names,Department_info,14
+Which department is most successful?,Best,1
+History of Sagarmatha Engineering College,College_basic_info,2
+Civil Engineering course details at Sagarmatha Engineering College,Course_specific_info,12
+SEC academic divisions,Department_info,14
+SEC course reviews,Course_rating,10
+Admission prerequisites SEC,Eligibility_criteria,15
+Engineering program length at SEC,Course_duration,7
+Best choice at SEC,Best,1
+SEC selection cutoff,Course_cutoff,6
+Electrical Engineering syllabus SEC,Course_specific_info,12
+SEC placement record,Placement_info,21
+Financial assistance SEC,Scholarship_info,23
+Best option at SEC,Compare_courses,5
+Faculty details SEC,Faculty_info,16
+Eligibility conditions SEC,Eligibility_criteria,15
+How many students can enroll at SEC?,Course_seats,11
+Best program at Sagarmatha Engineering,Best,1
+SEC residential campus,Hostel_availability,18
+Seats per program at SEC,Course_seats,11
+Faculty credentials at SEC,Faculty_info,16
+Requirements to join SEC,Eligibility_criteria,15
+SEC geographical location,College_location,4
+Scholarship programs at Sagarmatha Engineering College,Scholarship_info,23
+How are you doing?,Greeting,17
+SEC job placement,Placement_info,21
+Academic offerings at Sagarmatha,Course_list,9
+Top rated course at SEC,Best,1
+SEC industry connections,Internship_opportunities,19
+Which course has the best placement at SEC?,Compare_courses,5
+SEC work-study programs,Internship_opportunities,19
+How to contact Sagarmatha Engineering College?,College_contact,3
+SEC Nepal location,College_location,4
+SEC scholarship details,Scholarship_info,23
+What is SEC Nepal?,College_basic_info,2
+Hey,Greeting,17
+Which course is best at Sagarmatha Engineering College?,Compare_courses,5
+SEC teaching faculty,Faculty_info,16
+Closest SEC location to me,Nearest,20
+SEC college in which district?,College_location,4
+SEC course performance,Course_rating,10
+Documents required for SEC admission,Admission_process,0
+Where is SEC situated?,College_location,4
+SEC faculty information,Faculty_info,16
+Which companies recruit from SEC?,Placement_info,21
+Physical address of SEC,College_location,4
+Minimum rank required for Civil Engineering at Sagarmatha,Course_cutoff,6
+Academic reputation of SEC,Course_rating,10
+Fee structure for Electrical Engineering at Sagarmatha Engineering College,Course_fee,8
+Eligibility for SEC admission,Eligibility_criteria,15
+Can you recommend a course for me?,Recommend,22
+SEC course timeline,Course_duration,7
+SEC program ratings,Course_rating,10
+Directions to nearest SEC,Nearest,20
+SEC institutional departments,Department_info,14
+SEC faculty members,Faculty_info,16
+Department head information SEC,Department_head,13
+Which field is best at SEC?,Compare_courses,5
+Quality of education at SEC,Course_rating,10
+What subjects does SEC offer?,Course_list,9
+Residential options at SEC,Hostel_availability,18
+Expenses for studying at SEC,Course_fee,8
+What kind of institution is SEC?,College_basic_info,2
+SEC establishment year,College_basic_info,2
+Available courses at SEC,Course_list,9
+SEC departmental heads list,Department_head,13
+Exact location of SEC,College_location,4
+SEC job market success,Placement_info,21
+Student housing at Sagarmatha,Hostel_availability,18
+Where can I find SEC?,College_location,4
+How long is the Computer Engineering course at SEC?,Course_duration,7
+SEC official contact details,College_contact,3
+SEC payment details,Course_fee,8
+Does SEC provide accommodation?,Hostel_availability,18
+Electrical Engineering at Sagarmatha Engineering College,Course_specific_info,12
+Nearest SEC from here,Nearest,20
+Department leadership at SEC,Department_head,13
+Job opportunities after SEC,Placement_info,21
+SEC admission steps,Admission_process,0
+SEC fee structure,Course_fee,8
+Which program is highly rated?,Best,1
+How many faculty members are at SEC?,Faculty_info,16
+Closest engineering college,Nearest,20
+Admission threshold at SEC,Course_cutoff,6
+Where exactly is SEC located?,College_location,4
+Job placement rate SEC,Placement_info,21
+Is hostel available at SEC?,Hostel_availability,18
+Admission fee at Sagarmatha,Course_fee,8
+SEC student scholarships,Scholarship_info,23
+SEC instructor details,Faculty_info,16
+Academic departments at Sagarmatha,Department_info,14
+Quality of Civil Engineering at SEC,Course_specific_info,12
+Duration of Civil Engineering at Sagarmatha Engineering College,Course_duration,7
+What is the rating of courses at SEC?,Course_rating,10
+What is the placement rate at SEC?,Placement_info,21
+Can you help me choose a course?,Recommend,22
+Required marks for SEC,Course_cutoff,6
+SEC campus location,College_location,4
+Application form SEC,Admission_process,0
+Who manages the Computer Engineering department?,Department_head,13
+Minimum rank for SEC,Course_cutoff,6
+Does SEC offer housing?,Hostel_availability,18
+Top performing department,Best,1
+Entrance exam cutoff SEC,Course_cutoff,6
+Engineering course fees at Sagarmatha,Course_fee,8
+What do you study in Mechanical Engineering?,Course_specific_info,12
+SEC fee details,Course_fee,8
+Which course has best placement?,Best,1
+Department coordinators at SEC,Department_head,13
+Academic units at SEC,Department_info,14
+College overview of Sagarmatha,College_basic_info,2
+Best engineering branch at SEC,Best,1
+SEC scholarship programs,Scholarship_info,23
+Find SEC near my area,Nearest,20
+Pleased to meet you,Greeting,17
+Application procedure for Sagarmatha Engineering College,Admission_process,0
+When was Sagarmatha Engineering College established?,College_basic_info,2
+How to apply for admission at SEC?,Admission_process,0
+Compare Computer and Civil Engineering at SEC,Compare_courses,5
+Internship support SEC,Internship_opportunities,19
+How to get admission to SEC?,Admission_process,0
+Give me information about Sagarmatha Engineering College,College_basic_info,2
+Give me course recommendations,Recommend,22
+Admission procedure Sagarmatha,Admission_process,0
+What is the best course at SEC?,Best,1
+Practical experience SEC,Internship_opportunities,19
+Academic faculty SEC,Faculty_info,16
+Course duration at SEC,Course_duration,7
+Electronics program at SEC,Course_specific_info,12
+SEC college overview,College_basic_info,2
+How to reach the nearest SEC?,Nearest,20
+Who can apply to SEC?,Eligibility_criteria,15
+Course recommendation SEC,Compare_courses,5
+SEC address Nepal,College_location,4
+Rating of Civil Engineering at SEC,Course_rating,10
+List of courses at SEC,Course_list,9
+SEC course evaluation,Course_rating,10
+Course standards at SEC,Course_rating,10
+Hello there,Greeting,17
+SEC admission deadline dates,Admission_process,0
+Professional training SEC,Internship_opportunities,19
+Address of SEC Nepal,College_location,4
+What is the contact number of Sagarmatha Engineering College?,College_contact,3
+Information about Mechanical Engineering at SEC,Course_specific_info,12
+Need-based scholarships SEC,Scholarship_info,23
+Which is the best department?,Best,1
+What is the fee for Computer Engineering at SEC?,Course_fee,8
+SEC student intake,Course_seats,11
+Help me select a course,Recommend,22
+What do you recommend at SEC?,Recommend,22
+SEC academic requirements,Eligibility_criteria,15
+Cutoff rank for SEC,Course_cutoff,6
+"Hi, how are you?",Greeting,17
+Student accommodation SEC,Hostel_availability,18
+Private engineering college in Nepal,College_basic_info,2
+Nearest engineering college campus,Nearest,20
+Admission guidelines SEC,Admission_process,0
+How is Computer Engineering rated at Sagarmatha?,Course_rating,10
+Faculty heads at Sagarmatha,Department_head,13
+Which program do you advise?,Recommend,22
+Contact person at SEC,College_contact,3
+SEC boarding facilities,Hostel_availability,18
+Reach out to SEC,College_contact,3
+SEC course pricing,Course_fee,8
+SEC college coordinates,College_location,4
+SEC career services,Placement_info,21
+Required qualifications SEC,Eligibility_criteria,15
+What would you recommend studying?,Recommend,22
+Financial aid at SEC,Scholarship_info,23
+Where can I find SEC nearby?,Nearest,20
+What can I study at SEC Nepal?,Course_list,9
+SEC college address,College_location,4
+How to find Sagarmatha Engineering College?,College_location,4
+Contact details of Sagarmatha Engineering College,College_contact,3
+Faculty information at Sagarmatha Engineering College,Faculty_info,16
+Which courses can I study at SEC?,Course_list,9
+Internships at Sagarmatha Engineering College,Internship_opportunities,19
+Civil Engineering curriculum at SEC,Course_specific_info,12
+General information about Sagarmatha,College_basic_info,2
+Find closest SEC,Nearest,20
+Sagarmatha college whereabouts,College_location,4
+Internship programs at Sagarmatha Engineering College,Internship_opportunities,19
+Online application process SEC,Admission_process,0
+SEC placement support services,Placement_info,21
+SEC admission criteria,Admission_process,0
+Academic heads at SEC,Department_head,13
+Admission steps at SEC,Admission_process,0
+Best faculty department,Best,1
+Nice to meet you,Greeting,17
+Entrance cutoff for Electrical Engineering at SEC,Course_cutoff,6
+SEC communication details,College_contact,3
+Salutations,Greeting,17
+What's the top course here?,Best,1
+Course ranking at SEC,Compare_courses,5
+SEC admission capacity,Course_seats,11
+Tell me about SEC's reputation,College_basic_info,2
+SEC campus address details,College_location,4
+Who leads the Mechanical Engineering department at SEC?,Department_head,13
+Application requirements SEC,Admission_process,0
+SEC academic rating,Course_rating,10
+SEC contact information,College_contact,3
+SEC merit awards,Scholarship_info,23
+Career prospects from Sagarmatha Engineering College,Placement_info,21
+Accommodation at SEC,Hostel_availability,18
+Closest SEC branch,Nearest,20
+Financial cost of SEC,Course_fee,8
+Study cost at Sagarmatha,Course_fee,8
+Residential facilities at Sagarmatha Engineering College,Hostel_availability,18
+Who chairs the Engineering departments?,Department_head,13
+Application process SEC,Admission_process,0
+Academic staff at SEC,Faculty_info,16
+Number of seats in Electrical Engineering at Sagarmatha Engineering College,Course_seats,11
+Job placement at Sagarmatha Engineering College,Placement_info,21
+Course reputation at Sagarmatha,Course_rating,10
+SEC academic duration,Course_duration,7
+SEC academic departments,Department_info,14
+Total cost for engineering at SEC,Course_fee,8
+Suggest suitable courses at SEC,Recommend,22
+Teachers at SEC,Faculty_info,16
+Head of Electrical Engineering at SEC,Department_head,13
+Greetings,Greeting,17
+Email address of SEC,College_contact,3
+SEC background information,College_basic_info,2
+SEC experiential learning,Internship_opportunities,19
+Guide me to choose course,Recommend,22
+Engineering departments at SEC,Department_info,14
+Scholarship opportunities SEC,Scholarship_info,23
+Which course would you suggest?,Recommend,22
+How can I reach SEC?,College_contact,3
+Best academic program,Best,1
+SEC admission eligibility,Eligibility_criteria,15
+Tell me about Sagarmatha Engineering College,College_basic_info,2
+Electronics course details SEC,Course_specific_info,12
+SEC academic fees,Course_fee,8
+Hostel services at SEC,Hostel_availability,18
+SEC admission cutoff 2024,Course_cutoff,6
+SEC curriculum offerings,Course_list,9
+SEC course selection advice,Compare_courses,5
+SEC study duration,Course_duration,7
+Total seats in Civil Engineering at Sagarmatha Engineering College,Course_seats,11
+Suggest me a good engineering branch,Recommend,22
+SEC contact methods,College_contact,3
+SEC faculty leadership,Department_head,13
+What courses are offered at Sagarmatha Engineering College?,Course_list,9
+Student capacity at Sagarmatha,Course_seats,11
+Suggest the right course for me,Recommend,22
+What type of college is Sagarmatha Engineering College?,College_basic_info,2
+Price of engineering programs at Sagarmatha Engineering College,Course_fee,8
+What qualifications do I need for SEC Nepal?,Eligibility_criteria,15
+Industry internships SEC,Internship_opportunities,19
+Professors at Sagarmatha,Faculty_info,16
+How expensive is SEC?,Course_fee,8
+Internship facilities SEC,Internship_opportunities,19
+SEC entrance eligibility,Eligibility_criteria,15
+Scholarship programs at SEC Nepal,Scholarship_info,23
+Department heads at SEC Nepal,Department_head,13
+How much does Mechanical Engineering cost at SEC?,Course_fee,8
+Seat capacity for Mechanical Engineering at SEC,Course_seats,11
+SEC admission process,Admission_process,0
+Civil Engineering department leader SEC,Department_head,13
+How well rated is SEC?,Course_rating,10
+Nearest campus from my location,Nearest,20
+Nearest college location,Nearest,20
+Duration of Computer Engineering at Sagarmatha Engineering College,Course_duration,7
+Howdy,Greeting,17
+Study options at SEC,Course_list,9
+Can I stay in SEC hostel?,Hostel_availability,18
+SEC alumni employment,Placement_info,21
+Placement performance SEC,Placement_info,21
+Course comparison at SEC,Compare_courses,5
+Student financial aid SEC,Scholarship_info,23
+Minimum score for SEC admission,Course_cutoff,6
+Programs available at SEC,Course_list,9
+SEC department heads,Department_head,13
+Phone number of SEC Nepal,College_contact,3
+Which university is SEC affiliated to?,College_basic_info,2
+Contact SEC admission office,College_contact,3
+Industrial training at SEC,Internship_opportunities,19
+Telephone number of SEC,College_contact,3
+Admission eligibility at Sagarmatha Engineering College,Eligibility_criteria,15
+Hello,Greeting,17
+Course evaluation SEC,Compare_courses,5
+SEC entrance requirements,Course_cutoff,6
+Nearest Sagarmatha Engineering College,Nearest,20
+Best engineering program at SEC,Compare_courses,5
+Career support at SEC,Placement_info,21
+Available positions at SEC,Course_seats,11
+Financial grants SEC,Scholarship_info,23
+Admission methodology SEC,Admission_process,0
+SEC program list,Course_list,9
+Find nearest SEC campus,Nearest,20
+Average salary after SEC,Placement_info,21
